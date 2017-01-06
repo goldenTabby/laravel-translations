@@ -1,0 +1,20 @@
+{
+  "name": "tabby/translations",
+  "description": "Extended Laravel translations system",
+  "authors": [
+    {
+      "name": "Aleksey Marchuk",
+      "email": "aleksey.marchuk@hotmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Tabby\\Translations\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
