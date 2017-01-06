@@ -1,2 +1,4 @@
-# laravel-translations
-Extended Laravel translations system
+# Laravel Translation System
+## Installation
+## Usage
+### Migrations
