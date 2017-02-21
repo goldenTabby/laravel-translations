@@ -1,5 +1,9 @@
 # Laravel Translation System
 ## Installation
+###Install this package through Composer
+```sh
+composer require tabby/translations
+```
 ### Publish migrations and config
 ```sh
 php artisan vendor:publish
