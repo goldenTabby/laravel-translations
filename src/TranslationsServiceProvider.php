@@ -10,8 +10,15 @@ class TranslationsServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //t('test');
         $this->loadMigrationsFrom(__DIR__ . '/migrations');
+
+        $this->publishes([
+            __DIR__ . '/migrations' => $this->app->databasePath() . '/migrations'
+        ], 'migrations');
+
+        $this->publishes([
+            __DIR__ . '/config/translations.php' => config_path('translations.php')
+        ]);
     }
 
     /**

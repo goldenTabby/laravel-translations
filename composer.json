@@ -9,12 +9,23 @@
   ],
   "minimum-stability": "dev",
   "require": {},
+  "require-dev": {
+    "laravel/framework": "5.3.*",
+    "phpunit/phpunit": "~5.0",
+    "fzaninotto/faker": "~1.4",
+    "mockery/mockery": "0.9.*",
+    "orchestra/testbench": "~3.0"
+  },
   "autoload": {
     "psr-4": {
       "Tabby\\Translations\\": "src/"
     },
     "files": [
       "src/helpers.php"
+    ],
+    "classmap": [
+      "src/migrations",
+      "src/seeds"
     ]
   }
 }
