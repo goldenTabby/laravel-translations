@@ -1,6 +1,6 @@
 {
   "name": "tabby/translations",
-  "description": "Extended Laravel translations system",
+  "description": "Laravel DB translations system",
   "authors": [
     {
       "name": "Aleksey Marchuk",
@@ -8,7 +8,10 @@
     }
   ],
   "minimum-stability": "dev",
-  "require": {},
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "~5.0"
+  },
   "require-dev": {
     "laravel/framework": "5.3.*",
     "phpunit/phpunit": "~5.0",
